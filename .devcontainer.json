@@ -1,8 +1,5 @@
 {
   "extensions": [
     "dbaeumer.vscode-eslint"
-  ],
-  "settings": {
-    "files.autoSaveDelay": 1000
-  }
+  ]
 }
