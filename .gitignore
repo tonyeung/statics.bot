@@ -1,8 +1,6 @@
-# Dependency directories
+# ignore directories
 node_modules/
+dist/
 
 # dotenv environment variables file
 .env
-
-# vscode settings file
-#settings.json
