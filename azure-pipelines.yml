@@ -24,7 +24,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      echo "$TOKEN" > .env
+      echo "TOKEN=$TOKEN" > .env
   displayName: 'write TOKEN'
 
 - task: PublishBuildArtifacts@1
