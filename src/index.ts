@@ -16,12 +16,11 @@ export class Main {
     // In the login method, you must specify the glob string to load your classes (for the framework).
     // In this case that's not necessary because the entry point of your application is this file.
     this._client.login(
-      //"process.env.TOKEN",
-      "NzIxNzg3MjQ1MTExMjc5NjU2.XxHyPw.683kQidXwryMoSO-cCrx-5f551I",
+      process.env.TOKEN,
       `${__dirname}/discords/*.js` // If you compile your bot, the file extension will be .js
     );
     console.log("started client");
-    console.log("commands");
+    console.log("commands"); 
     console.log(Client.getCommands());
   }
 }
