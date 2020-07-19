@@ -4,13 +4,10 @@
   "description": "statics bot for discord",
   "main": "index.js",
   "dependencies": {
+    "@typeit/discord": "^4.0.8",
     "@types/node": "^14.0.13",
-    "@types/ws": "^7.2.5",
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
-    "install": "^0.13.0",
-    "inversify": "^5.0.1",
-    "reflect-metadata": "^0.1.13",
     "typescript": "^3.9.5"
   },
   "devDependencies": {
