@@ -16,7 +16,8 @@ export class AppDiscord {
     @On("message")
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     onMessage([message]: ArgsOf<"message">): void {
-        //console.log(message);
+        console.log("message received");
+        console.log(message.content);
     }
 
     @On("error")
