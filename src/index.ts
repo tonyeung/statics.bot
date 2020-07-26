@@ -25,4 +25,6 @@ export class Main {
   }
 }
 
+process.env.commands = "";
+
 Main.start();
