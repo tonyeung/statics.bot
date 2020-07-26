@@ -1,11 +1,10 @@
 import { Command, CommandMessage, Guard } from "@typeit/discord";
-import { Say } from "../guards/Say";
+import { Throttle } from "../guards/Throttle";
 
 export abstract class Ping {
     @Command("ping")
-    @Guard(Say("guard"))
+    @Guard(Throttle("ping"))
     async ping(command: CommandMessage): Promise<void> {
-        console.log("!ping called with guard");
         command.reply("Pong!");
     }
 }
